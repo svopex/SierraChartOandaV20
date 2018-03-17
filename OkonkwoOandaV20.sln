@@ -17,6 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OandaApiBusinessClass", "Oa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SierraChartIndicator", "SierraChartIndicator", "{D6FBD2FB-5414-4B7B-885B-9FB4815919AB}"
 	ProjectSection(SolutionItems) = preProject
+		References\MySql.Data.dll = References\MySql.Data.dll
 		OandaConnectorSierraChartStudy\Oanda.cpp = OandaConnectorSierraChartStudy\Oanda.cpp
 	EndProjectSection
 EndProject
