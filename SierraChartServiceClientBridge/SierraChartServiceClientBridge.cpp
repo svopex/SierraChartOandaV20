@@ -48,8 +48,6 @@ void MakePositionWrapper(const char* symbol, int positionQuantity, OrdersStructT
 		SierraOrder->OrderTypeAsInt = c_ordersStructType[i].OrderTypeAsInt;
 		SierraOrder->AvgFillPrice = c_ordersStructType[i].AvgFillPrice;
 		sierraOrders->Add(SierraOrder);
-
-
 	}
 
 	System::String^ const stringSymbol = gcnew System::String(symbol);
